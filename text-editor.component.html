@@ -1,0 +1,7 @@
+<div>
+  <input data-test-id="app-input" [(ngModel)]="inputText" />
+  <button data-test-id="append-button" (click)="appendText()">Append</button>
+  <button data-test-id="undo-button" (click)="undoText()">Undo</button>
+</div>
+
+<p data-test-id="output-field">{{ outputText }}</p>
